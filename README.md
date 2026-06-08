@@ -82,6 +82,16 @@ The old `setTimeout` / `AudioContext` approaches fail because Android acts too f
 
 ---
 
+## 🐛 Known Issues & Limitations (Work in Progress)
+**Tested on:** Realme C53 (Realme UI, Android 15)
+
+Currently, this project is still in active development, which means the code is not yet perfect.
+* **Experimental Recent Apps Survival:** The script can sometimes keep the music running in the background even if you explicitly swipe away/close Iceraven from your **Recent Apps** (Task Switcher).
+
+* **The Bug:** This feature is currently unstable. Occasionally, closing Iceraven from Recent Apps will completely kill the code, resulting in the music failing to run in the background. Expect ongoing updates as we patch these development flaws.
+
+---
+
 ## ⚠️ Disclaimer & About
 
 **Author:** GandiTypo
