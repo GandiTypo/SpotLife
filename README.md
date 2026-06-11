@@ -14,7 +14,6 @@ Many of us want to listen to Spotify without ads on Android using the Web Browse
 
 SpotLife is the definitive, hardcore solution to fix this issue permanently. We are not using modified Spotify applications (Mod APKs) which carry data theft risks. Instead, we are giving the Iceraven browser OS-level priority and injecting a highly aggressive userscript to fight back against Android's background app killer.
 
----
 
 ## 🔬 Under the Hood: Why Does the Music Die?
 
@@ -26,7 +25,6 @@ Many assume that when the music stops, Android has force-killed the browser beca
 
 To counter this aggressive OS behavior, we use a combination of system configs, browser tweaks, and an apex userscript (**Ironclad V5.4**) to fight back with zero latency.
 
----
 
 ## 🛠️ Prerequisites
 
@@ -37,7 +35,6 @@ Before you begin, ensure you have the following installed on your Android device
 * **uBlock Origin:** Install this inside Iceraven to completely block all Spotify web ads.
 * **[Shizuku](https://shizuku.rikka.app/) & [aShell](https://gitlab.com/sunilpaulmathew/ashell):** Required to grant system-level permissions without rooting your phone. Ensure Shizuku is running (via Wireless Debugging) and aShell is connected to it.
 
----
 
 ## 🚀 Step-by-Step Installation Guide
 
@@ -80,7 +77,6 @@ The old `setTimeout` / `AudioContext` approaches fail because Android acts too f
 4. Paste the code into the Tampermonkey editor and click **File > Save**.
 5. Open the Spotify Web Player in Iceraven, log in, play your favorite track, and enjoy true background multitasking even during heavy gaming!
 
----
 
 ## 🐛 Known Issues & Limitations (Work in Progress)
 **Tested on:** Realme C53 (Realme UI, Android 15)
@@ -90,7 +86,6 @@ Currently, this project is still in active development, which means the code is 
 
 * **The Bug:** This feature is currently unstable. Occasionally, closing Iceraven from Recent Apps will completely kill the code, resulting in the music failing to run in the background. Expect ongoing updates as we patch these development flaws.
 
----
 
 ## ⚠️ Disclaimer & About
 
