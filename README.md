@@ -32,6 +32,7 @@ Before you begin, ensure you have the following installed on your Android device
 
 * **[Iceraven Browser](https://github.com/fork-maintainers/iceraven-browser):** An open-source Firefox fork that supports PC extensions.
 * **Tampermonkey:** Install this add-on inside Iceraven.
+* **Mute Spotify Ads for Firefox:** Install this add-on inside Iceraven.
 * **uBlock Origin:** Install this inside Iceraven to completely block all Spotify web ads.
 * **[Shizuku](https://shizuku.rikka.app/) & [aShell](https://gitlab.com/sunilpaulmathew/ashell):** Required to grant system-level permissions without rooting your phone. Ensure Shizuku is running (via Wireless Debugging) and aShell is connected to it.
 
